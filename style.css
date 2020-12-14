@@ -7,7 +7,7 @@ body{
     border-bottom: solid rgb(222, 226, 230) 1px;
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
     background-color: #fff;
-    margin-bottom: 16px;
+    margin-bottom: 19px;
 }
 .nav{
     display: flex;
@@ -47,4 +47,24 @@ body{
 }
 #sign:focus{
     box-shadow: 0 0 0 4px rgba(13, 109, 253, 0.5);
+}
+#main{
+    padding: 48px 16px 24px 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 16px;
+    margin-top: 0px;
+}
+.h1{
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 61.53px;
+    margin-bottom: 12px;
+    text-align: center;
 }
